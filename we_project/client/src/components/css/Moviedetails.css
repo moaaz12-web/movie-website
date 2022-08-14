@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+@import url('https://kit.fontawesome.com/8d26280bd6.js');
+/* :root {
+    --primary-color: rgba(255, 0, 0, 0.4);
+    --secondary-color: rgba(255, 0, 0, 1);
+} */
+
+:root {
+    /* --primary-color: rgb(191, 0, 255); */
+    --primary-color: rgb(0, 255, 170);
+    --secondary-color:rgb(0, 255, 234);
+    --secondary-color: rgb(191, 0, 255);
+    --para-color:black
+}
+
+.overview{
+    color:var(--para-color);
+    font-weight:bold;
+}
+
+
+li{
+    list-style: disc;
+    text-decoration: none;
+    margin-left:2rem;
+}
+
+.arrow{
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    top: 90%;
+    left: 90%;
+    z-index: 10;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: none;
+}
+
+.arrow:hover{
+    box-shadow: none;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+
+.rate{
+    text-align: left;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    color:var(--para-color);
+
+}
+
+
+#pp{
+    text-align: left;
+    color: black;
+    text-decoration: underline;
+    box-shadow: none;
+    margin-left: 2rem;
+}
+
+.movie-descr{
+    color:var(--secondary-color);
+    font-size:1.4rem;
+    text-align: left;
+    margin-top: 1rem;
+    text-decoration: underline;    
+}
+
+body{
+    background-color: var(--primary-color);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+
+.movie {
+    width: 250px;
+    margin: 1rem;
+    border-radius: 3px;
+    display: block;
+
+}
+
+img{
+    /* position: relative; */
+    width:100%;
+    border-radius: 10%;
+    box-shadow: 0px 4px 10px var(--secondary-color);
+    
+}
+
+img:hover{
+    box-shadow: 4px 6px 20px 7px var(--secondary-color);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,85 @@
+
+.App {
+    text-align: center;
+    z-index:10;
+    background-color: rgba(0, 255, 255, 1);
+    border-radius: 10%;
+    width:37rem;
+    height:fit-content;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top:5%;
+  }
+
+
+.regInput{
+  width: 80%;
+  margin: 0 0 1rem 1rem;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  height: 40px;
+  outline: none;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+
+}
+
+.bbbnnn1{
+  
+  border: none;
+  /* outline: none; */
+  height: 40px;
+  border-radius: 20px;
+  background: #e5510d;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  outline-style: groove;
+
+}
+
+.bbbnnn2{
+  
+  border: none;
+  /* outline: none; */
+  height: 40px;
+  border-radius: 20px;
+  background: #e5510d;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  outline-style: groove;
+
+}
+
+.bbbnnn:hover{
+  background-color: crimson;
+}
+
+
+
+
+
+@media only screen and (max-width: 640px) {
+
+  .App{
+    width:90%;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+
+  .App{
+    width:100%;
+  }
+}
+
+
+

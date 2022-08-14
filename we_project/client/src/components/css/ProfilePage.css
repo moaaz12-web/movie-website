@@ -1,0 +1,95 @@
+.info{
+    margin: 2rem;
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 1.7rem;
+    border:3px solid var(--secondary-color);
+    border-radius: 10px;
+    text-align: center;
+    /* box-shadow: 5px 5px   var(--secondary-color); */
+    /* animation: example 4s ease-in-out 2s infinite alternate; */
+
+}
+
+*{
+   border-collapse: collapse;
+}
+
+/* @keyframes example {
+    from {color: rgb(228, 54, 23); box-shadow:  5px 5px  rgb(228, 54, 23);}
+    to {color: rgb(255, 251, 0);   box-shadow:  5px 5px  rgb(255, 251, 0);}
+  }
+ */
+
+
+ /* .parent{
+    display: flex;
+    justify-content: space-around;
+
+ } */
+
+ .favorites{
+    /* border:2px solid black; */
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 1rem;
+
+ }
+
+ .remove-btn{
+   background-color: var(--secondary-color);
+   border-radius: 7.5px;
+   height: 1.5rem;
+ }
+
+
+ *{
+   box-sizing: border-box;
+   border-collapse: collapse;
+ }
+
+ .abc{
+   display: flex;
+   justify-content: space-between;
+   margin-right: 3rem;
+   margin-left: 3rem;
+   border:1px solid black
+ }
+
+ .dislikes{
+   /* border:2px solid black; */
+   border-radius: 15px;
+   width: 100%;
+   /* margin-top: 1.4rem; */
+
+
+
+}
+
+
+ .later{
+   width: 100%;
+   /* margin-top: 1rem; */
+
+
+    /* border:2px solid black; */
+    border-radius: 15px;
+    /* width: max-content; */
+    /* height: max-content; */
+
+ }
+
+.pp{
+    text-align: center;
+    color:var(--secondary-color);
+    text-decoration:none;
+    font-size: 1.7rem;
+    
+}
+
+.profile-movies{
+   /* margin: rem; */
+   /* padding-bottom: 4rem; */
+   padding: 0px 12px;
+}
+
